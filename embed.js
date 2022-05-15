@@ -559,7 +559,7 @@ module.exports.run = async(message, args, client) => {
                 if (encours === true) return i.reply({embeds: [
                     new Discord.MessageEmbed()
                     .setTitle(":x: Une autre action est déjà en cours")
-                    .setDescription(`:x: | Une autre acion est déjà en cours.\nTerminez cette action avant d'en recommencer une.\nTapez \`cancel\` pour annuler l'action`)
+                    .setDescription(`:x: | Une autre action est déjà en cours.\nTerminez cette action avant d'en recommencer une.\nTapez \`cancel\` pour annuler l'action`)
                     .setColor('#ff0000')
                     ]}
                 ) & setTimeout(i.deleteReply, 5000);
